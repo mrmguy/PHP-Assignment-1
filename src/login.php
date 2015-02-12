@@ -1,7 +1,10 @@
 <?php
+session_start();
   error_reporting(E_ALL);
   ini_set('display-errors', 'On');
-  session_start();
+  $_SESSION['previous'] = basename($_SERVER['PHP_SELF']);
+  $_SESSION['count']=0;
+
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +18,6 @@
   <form method="POST" action="content1.php"> 
    username: <input type="text" name="username">
    <br><br>
-   <input type="submit"> 
+   <input type="submit" value="Login"> 
  </form>
  <br>
