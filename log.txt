@@ -1,0 +1,31 @@
+Start: Sat, 14 Feb 2015 14:00:14 -0800 
+End: Sat, 14 Feb 2015 14:56:14 -0800 
+Tasks: complete login.php and associated files content1.php content2.php 
+
+Start: Sat, 14 Feb 2015 13:40:22 -0800 
+End: Sat, 14 Feb 2015 13:53:22 -0800 
+Tasks: formatting loopback.php 
+
+Start: Sat, 14 Feb 2015 12:15:27 -0800 
+End: Sat, 14 Feb 2015 13:37:27 -0800 
+Tasks: completed all test conditions for multtable.php 
+
+Start: Wed, 11 Feb 2015 16:30:23 -0800 
+End: Wed, 11 Feb 2015 17:19:23 -0800 
+Tasks: added functionality to login.php content1.php content2.php 
+
+Start: Wed, 11 Feb 2015 15:36:04 -0800 
+End: Wed, 11 Feb 2015 15:56:04 -0800 
+Tasks: added intitial structure to login.php, content1.php, content2.php 
+
+Start: Wed, 11 Feb 2015 14:50:03 -0800 
+End: Wed, 11 Feb 2015 15:33:03 -0800 
+Tasks: test loopback.php with  and  html pages 
+
+Start: Wed, 11 Feb 2015 13:45:21 -0800 
+End: Wed, 11 Feb 2015 14:39:21 -0800 
+Tasks: implement initial functionality of loopback.php 
+
+Start: Wed, 11 Feb 2015 11:00:55 -0800 
+End: Wed, 11 Feb 2015 13:40:55 -0800 
+Tasks: complete entire implementation of multtable.php 
