@@ -1,6 +1,7 @@
 <?php
-  error_reporting(E_ALL);
-  ini_set('display-errors', 'On');
+//Mark Burnstein CS290
+error_reporting(E_ALL);
+ini_set('display-errors', 'On');
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
 	if (empty($_GET)) {
@@ -12,7 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
   echo $text;
 }
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	if (empty($_POST)) {
 		$arr = array("Type" => "POST", "parameters" => "NULL");
@@ -22,7 +22,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $text = json_encode($arr);
   echo $text;
 }
-
- //echo json objet
-
  ?>
