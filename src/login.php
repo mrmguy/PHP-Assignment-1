@@ -1,10 +1,15 @@
 <?php
+//Mark Burnstein CS290
 session_start();
-  error_reporting(E_ALL);
-  ini_set('display-errors', 'On');
-  $_SESSION['previous'] = basename($_SERVER['PHP_SELF']);
-  $_SESSION['count']=0;
-
+if ($_SERVER['REQUEST_METHOD']) {
+  session_unset();
+  session_destroy();
+  session_start();
+}
+error_reporting(E_ALL);
+ini_set('display-errors', 'On');
+$_SESSION['previous'] = "no";
+$_SESSION['count']=0;
 ?>
 
 <!DOCTYPE html>

@@ -1,4 +1,5 @@
 <?php
+//Mark Burnstein CS290
 error_reporting(E_ALL);
 ini_set('display-errors', 'On');
 
